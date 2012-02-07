@@ -1,0 +1,8 @@
+Package: AtomicT
+Version: 1.1-1
+Section: base
+Priority: optional
+Architecture: all
+Depends: php (>=5)
+Maintainer: Pratik Patel (pp4g08@ecs.soton.ac.uk)
+Description: An RSS Reader coded in PHP
