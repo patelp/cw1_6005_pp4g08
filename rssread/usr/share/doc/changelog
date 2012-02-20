@@ -1,0 +1,18 @@
+rssread (v1.5) stable; urgency=low
+
+  [pratik <pratik@dara.craig-saunders.co.uk>]
+  * first commit
+  * adding folder structure
+  * Update README
+  * updated man pages
+  * adding original php files
+  * changed index.php to run off package
+  * index.php changes
+  * added modified index
+  * adding slash to index.php
+  * added script to run php file
+  * changed dependeny in control file
+  * changing structure of copyright
+
+ -- pratik <pratik@dara.craig-saunders.co.uk>  Tue, 07 Feb 2012 20:04:24 +0000
+
