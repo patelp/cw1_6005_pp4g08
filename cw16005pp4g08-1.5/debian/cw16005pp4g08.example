@@ -1,0 +1,17 @@
+Examples of cw6005pp4g08
+
+1. Using without options, pulls up bbc.co.uk top stories
+
+	$user: cw16005pp4g08
+
+2. Limiting the number of feed items displayed.
+
+	$user: cw16005pp4g08 --items 4
+
+3. Supplying a custom RSS feed url.
+
+	$user: cw16005pp4g08 --feeds http://feeds.bbci.co.uk/news/uk/rss.xml
+
+4. Combining both options:
+
+	$user: cw16005pp4g08 --feeds http://feeds.bbci.co.uk/news/health/rss.xml --items 2

@@ -10,4 +10,5 @@ Package: cw16005pp4g08
 Architecture: any
 Depends: ${misc:Depends}
 Description: CLI friendly rss feed reader.
- This program will output the latest rss feeds from a given XML feed provided by the user, if none is provided it will use default: bbc.co.uk's top stories feeds.
+ This program will output the latest rss feeds from a given XML feed provided by the user, if none is provided it will use default:
+ bbc.co.uk's top stories feeds.
