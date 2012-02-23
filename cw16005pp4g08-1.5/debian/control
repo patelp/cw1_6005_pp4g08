@@ -3,12 +3,14 @@ Section: devel
 Priority: optional
 Maintainer: Pratik Patel <pp4g08@ecs.soton.ac.uk>
 Build-Depends: debhelper (>= 7), php5-cli
-Standards-Version: 3.8.3
+Standards-Version: 3.8.4
 Homepage: https://github.com/patelp/cw1_6005_pp4g08/
 
 Package: cw16005pp4g08
 Architecture: any
 Depends: ${misc:Depends}
 Description: CLI friendly rss feed reader.
- This program will output the latest rss feeds from a given XML feed provided by the user, if none is provided it will use default:
- bbc.co.uk's top stories feeds.
+ This program will output the latest rss 
+ feeds from a given XML feed provided by 
+ the user, if none is provided it will use 
+ default: bbc.co.uk's top stories feeds.

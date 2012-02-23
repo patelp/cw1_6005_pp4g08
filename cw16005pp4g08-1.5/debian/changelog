@@ -1,5 +1,16 @@
-cw16005pp4g08 (1.5) unstable; urgency=low
+cw16005pp4g08 (1.5) stable; urgency=low
 
-  * Initial Release.
+  * first commit
+  * adding folder structure
+  * Update README
+  * updated man pages
+  * adding original php files
+  * changed index.php to run off package
+  * index.php changes
+  * added modified index
+  * adding slash to index.php
+  * added script to run php file
+  * changed dependeny in control file
+  * changing structure of copyright
 
- -- unknown <pp4g08@ecs.soton.ac.uk>  Wed, 22 Feb 2012 18:19:03 +0000
+ -- Pratik Patel <pp4g08@ecs.soton.ac.uk>  Thu, 23 Feb 2012 23:34:43 +0000

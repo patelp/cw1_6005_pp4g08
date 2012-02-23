@@ -1,0 +1,39 @@
+Format: 1.8
+Date: Thu, 23 Feb 2012 23:34:43 +0000
+Source: cw16005pp4g08
+Binary: cw16005pp4g08
+Architecture: source i386
+Version: 1.5
+Distribution: stable
+Urgency: low
+Maintainer: Pratik Patel <pp4g08@ecs.soton.ac.uk>
+Changed-By: Pratik Patel <pp4g08@ecs.soton.ac.uk>
+Description: 
+ cw16005pp4g08 - CLI friendly rss feed reader.
+Changes: 
+ cw16005pp4g08 (1.5) stable; urgency=low
+ .
+   * first commit
+   * adding folder structure
+   * Update README
+   * updated man pages
+   * adding original php files
+   * changed index.php to run off package
+   * index.php changes
+   * added modified index
+   * adding slash to index.php
+   * added script to run php file
+   * changed dependeny in control file
+   * changing structure of copyright
+Checksums-Sha1: 
+ fd9c93de4b883597e01b7f33ccae224a2211e918 533 cw16005pp4g08_1.5.dsc
+ 92315fffbcaaf97484a1265290d173da82bad10c 6434 cw16005pp4g08_1.5.tar.gz
+ 7126c830ce7fbb46300155adfa515e795f32b42e 2762 cw16005pp4g08_1.5_i386.deb
+Checksums-Sha256: 
+ 468641e0210ec4204b202bb4a41d8d0bf2e0736d66c3e358c1d9f7e2cb7a49db 533 cw16005pp4g08_1.5.dsc
+ 3c7c8396168fec999871535ee66d0b1e23382c31c21716e668e08b8974b426d8 6434 cw16005pp4g08_1.5.tar.gz
+ feda72c95480175e6e8e88de4793967119fc0b23ddc8f5cf7f9b33c702b38154 2762 cw16005pp4g08_1.5_i386.deb
+Files: 
+ beffaefdbd787499b7cc236ef051f13c 533 devel optional cw16005pp4g08_1.5.dsc
+ f4d75f0229a6f85f91b7dab159fd315a 6434 devel optional cw16005pp4g08_1.5.tar.gz
+ cb215b5880e1db6a9189733fadbb7a69 2762 devel optional cw16005pp4g08_1.5_i386.deb
