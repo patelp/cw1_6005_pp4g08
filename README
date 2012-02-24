@@ -18,6 +18,9 @@ Features of coursework completed:
   * Changelog
   * Tags (there were issues on tags being different per machine, but managed to include in some commits)
   * .dsc .build & .changes files
+  * debconf fully working, with mutli-feed option, tells the user to seperate rss feeds with space, i.e.:
+"bbc.co.uk/feed1.xml bbc.co.uk/feed2.xml" and displays correctly in terminal when run.
+    postinst script replaces spaces with newline, should not be a problem as URLs do not contain spaces (just %20)
 
 index.php changes:
 - changing location of config file(feeds.conf), including both global conf in etc/ and a placeholder for
@@ -46,17 +49,21 @@ $ cw16005pp4g08 --items 4
 
 ----------------
 How to Package the source:
+#see debian/rules for full options, i.e clean etc
 
 $ cd cw16005pp4g08-vx.x
 $ dh_make -s -n -c gpl -e user@email.com
 
-Optional: { 
-$ fakeroot debian/rules clean
-}
-
-$ fakeroot debian/rules build
 $ fakeroot debian/rules binary
 
+Optional: Use lintian to validate package:
+
+$ lintian cw16005pp4g08_x.x_i386.deb
+
+----------------
+Commit log
+
+https://github.com/patelp/cw1_6005_pp4g08/commits/master
           
 ----------------
 Some Resources Used
