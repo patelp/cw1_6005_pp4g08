@@ -1,5 +1,27 @@
 cw16005pp4g08 (1.5) stable; urgency=low
 
+  * branch v1.5 dh_make style with folder restructuring
+  * custom debian/rules
+  * added manpages to dh_make structure
+  * added examples and custom changelog to debian/
+  * setting up debconf for custom settings
+  * running debuild -us -uc
+
+ -- Pratik Patel <pp4g08@ecs.soton.ac.uk>  Thu, 23 Feb 2012 23:31:45 -0000
+
+cw16005pp4g08 (1.1) stable; urgency=low
+
+  * removing placeholder changelog zip
+  * added generated changelog
+  * changing dependancy to php5-cli
+  * creating folder structure for trial dh_make
+  * update changes to index.php
+  * run trial dh_make and edit templates
+
+ -- Pratik Patel <pp4g08@ecs.soton.ac.uk>  Mon, 20 Feb 2012 16:47:23 -0000
+
+cw16005pp4g08 (0.1) stable; urgency=low
+
   * first commit
   * adding folder structure
   * Update README
