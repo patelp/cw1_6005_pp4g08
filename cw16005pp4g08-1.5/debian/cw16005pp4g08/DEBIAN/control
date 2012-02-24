@@ -2,7 +2,8 @@ Package: cw16005pp4g08
 Version: 1.5
 Architecture: i386
 Maintainer: Pratik Patel <pp4g08@ecs.soton.ac.uk>
-Installed-Size: 96
+Installed-Size: 112
+Depends: debconf (>= 0.5) | debconf-2.0
 Section: devel
 Priority: optional
 Homepage: https://github.com/patelp/cw1_6005_pp4g08/

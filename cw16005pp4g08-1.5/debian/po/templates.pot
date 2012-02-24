@@ -1,0 +1,53 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: cw16005pp4g08@packages.debian.org\n"
+"POT-Creation-Date: 2012-02-24 04:56+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: string
+#. default
+#: ../cw16005pp4g08.templates:1001
+msgid "English[ http://feeds.bbci.co.uk/news/rss.xml]"
+msgstr ""
+
+#. Type: string
+#. description
+#: ../cw16005pp4g08.templates:1002
+msgid "URL of Feeds(use space to seperate multiple feeds):"
+msgstr ""
+
+#. Type: string
+#. description
+#: ../cw16005pp4g08.templates:1002
+msgid "This debian package needs a default RSS feed URL for general use."
+msgstr ""
+
+#. Type: string
+#. default
+#: ../cw16005pp4g08.templates:2001
+msgid "English [10]"
+msgstr ""
+
+#. Type: string
+#. description
+#: ../cw16005pp4g08.templates:2002
+msgid "Feed Entries to Be Displayed:"
+msgstr ""
+
+#. Type: string
+#. description
+#: ../cw16005pp4g08.templates:2002
+msgid "This package needs to know how many entries in a feed to display."
+msgstr ""

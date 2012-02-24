@@ -1,0 +1,25 @@
+#!/bin/sh
+set -e
+
+# Location of debconf
+. /usr/share/debconf/confmodule
+
+db_get cw16005pp4g08/feeds
+feed="$RET"
+db_get cw16005pp4g08/items
+itemn="$RET"
+
+mlfeed="$(echo $feed | tr ' ' '\n')"
+
+cat > /etc/cw16005pp4g08/feeds.conf << EOF
+<feeds>
+$mlfeed
+</feeds>
+
+<items>
+$itemn
+</items>
+EOF
+
+db_stop
+
