@@ -1,4 +1,67 @@
 This is a readme for cw16005pp4g08
 a program for the 2012 info6005 coursework (1).
+Pratik Patel - pp4g08
 
+----------------
+Repository (git)
+
+https://github.com/patelp/cw1_6005_pp4g08/
+
+----------------
+Features of coursework completed:
+
+- Tested on Ubuntu LTS without any problems
+- Lintian shows no errors on .deb 
+- Includes:
+  * Examples (https://github.com/patelp/cw1_6005_pp4g08/blob/master/cw16005pp4g08-1.5/debian/cw16005pp4g08.example)
+  * Man Pages (man 1)
+  * Changelog
+  * Tags (there were issues on tags being different per machine, but managed to include in some commits)
+  * .dsc .build & .changes files
+
+index.php changes:
+- changing location of config file(feeds.conf), including both global conf in etc/ and a placeholder for
+user config files in home directory.
+
+$user_config_file = $_SERVER['HOME'].'/.cw16005pp4g08';
+$config_file = '/etc/cw16005pp4g08/feeds.conf';
+
+----------------
+Installation
+
+$ sudo dpkg -i cw16005pp4g08_1.5_i386.deb
+
+----------------
+Usage
+
+$ cw16005pp4g08 
+
+or with options:
+
+--feeds allows the program to load custom RSS feed URLs
+$ cw16005pp4g08 --feeds http://bbc.com/feeds.xml
+
+--items states how many items to display from the default or given (--feeds) RSS feed.
+$ cw16005pp4g08 --items 4
+
+----------------
+How to Package the source:
+
+$ cd cw16005pp4g08-vx.x
+$ dh_make -s -n -c gpl -e user@email.com
+
+Optional: { 
+$ fakeroot debian/rules clean
+}
+
+$ fakeroot debian/rules build
+$ fakeroot debian/rules binary
+
+          
+----------------
+Some Resources Used
+
+- http://www.debian.org/doc/manuals/developers-reference/best-pkging-practices.html
+- https://wiki.ubuntu.com/PackagingGuide/Complete
+- http://www.youtube.com/watch?v=nhoRyd2CEVs
 
