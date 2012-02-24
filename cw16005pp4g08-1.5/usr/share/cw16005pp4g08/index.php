@@ -46,7 +46,7 @@
 
 	# Read config from file
 	if (@!$config) {
-		$user_config_file = $_SERVER['HOME'].'/.rssread';
+		$user_config_file = $_SERVER['HOME'].'/.cw16005pp4g08';
 		$config_file = '/etc/cw16005pp4g08/feeds.conf';
 		if (file_exists($config_file)) {
 			$config = conf_from_file($config_file);
