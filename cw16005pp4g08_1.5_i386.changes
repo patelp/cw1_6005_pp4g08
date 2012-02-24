@@ -1,5 +1,5 @@
 Format: 1.8
-Date: Thu, 23 Feb 2012 23:34:43 +0000
+Date: Thu, 23 Feb 2012 23:31:45 -0000
 Source: cw16005pp4g08
 Binary: cw16005pp4g08
 Architecture: source i386
@@ -13,27 +13,21 @@ Description:
 Changes: 
  cw16005pp4g08 (1.5) stable; urgency=low
  .
-   * first commit
-   * adding folder structure
-   * Update README
-   * updated man pages
-   * adding original php files
-   * changed index.php to run off package
-   * index.php changes
-   * added modified index
-   * adding slash to index.php
-   * added script to run php file
-   * changed dependeny in control file
-   * changing structure of copyright
+   * branch v1.5 dh_make style with folder restructuring
+   * custom debian/rules
+   * added manpages to dh_make structure
+   * added examples and custom changelog to debian/
+   * setting up debconf for custom settings
+   * running debuild -us -uc
 Checksums-Sha1: 
- 38498690e8b8fc7048dc05e2cc3ba31e902d9834 533 cw16005pp4g08_1.5.dsc
- d46d4783199a143ec8647a41b9a9a72806411f49 7150 cw16005pp4g08_1.5.tar.gz
- 21836817ae98f59493514a4515315aed893a267a 7360 cw16005pp4g08_1.5_i386.deb
+ 98418ae922fc7c7fe4db2bcde15245a8d0f2b2d0 533 cw16005pp4g08_1.5.dsc
+ d55e454264be907b324f0e9fc0c2b44493e9acf2 7356 cw16005pp4g08_1.5.tar.gz
+ b3a63305e7019d8c7fe2a3317f003558864f60af 7622 cw16005pp4g08_1.5_i386.deb
 Checksums-Sha256: 
- f39a601a8e5e5d2481574b765b64aff271a07880c328f1a4844369db05335d87 533 cw16005pp4g08_1.5.dsc
- 133b45a216e875e72c72e8d027e9bb3c8b70a9c16d496a378a87cd4a7a78d5ba 7150 cw16005pp4g08_1.5.tar.gz
- 53f0b68bf759477586fe0b92cc721e4b3881660a105d91e6bc315d29e2df13a8 7360 cw16005pp4g08_1.5_i386.deb
+ 28d0178b263c378e02b94e0b4e01ecddb96b901aac40b088e7e9d9c3a7e0b1e7 533 cw16005pp4g08_1.5.dsc
+ 2f9a59f66e02b697f5aba2b79f383e228d5214303423489ec30c2f00e80de222 7356 cw16005pp4g08_1.5.tar.gz
+ 293cc07b49aebe4a3488962222f8d8965dd399e63f902589b5291feb28ad75e8 7622 cw16005pp4g08_1.5_i386.deb
 Files: 
- 16df09f4d2c0d73832f04f6f6ec0d343 533 devel optional cw16005pp4g08_1.5.dsc
- 4d374eef7ac1530334ad796e3f86d2d6 7150 devel optional cw16005pp4g08_1.5.tar.gz
- 8c6696c2c493fd403cc4c9c14c0f0137 7360 devel optional cw16005pp4g08_1.5_i386.deb
+ 6bea5233cf7ef5f652b2ce0814fde229 533 devel optional cw16005pp4g08_1.5.dsc
+ 3bd509dd951ddc5b809918f37dcbcecf 7356 devel optional cw16005pp4g08_1.5.tar.gz
+ 0fd703517ad88a67df901b4779a046e4 7622 devel optional cw16005pp4g08_1.5_i386.deb

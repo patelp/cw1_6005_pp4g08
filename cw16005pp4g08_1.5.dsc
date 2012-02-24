@@ -8,8 +8,8 @@ Homepage: https://github.com/patelp/cw1_6005_pp4g08/
 Standards-Version: 3.8.4
 Build-Depends: debhelper (>= 7), php5-cli
 Checksums-Sha1: 
- d46d4783199a143ec8647a41b9a9a72806411f49 7150 cw16005pp4g08_1.5.tar.gz
+ d55e454264be907b324f0e9fc0c2b44493e9acf2 7356 cw16005pp4g08_1.5.tar.gz
 Checksums-Sha256: 
- 133b45a216e875e72c72e8d027e9bb3c8b70a9c16d496a378a87cd4a7a78d5ba 7150 cw16005pp4g08_1.5.tar.gz
+ 2f9a59f66e02b697f5aba2b79f383e228d5214303423489ec30c2f00e80de222 7356 cw16005pp4g08_1.5.tar.gz
 Files: 
- 4d374eef7ac1530334ad796e3f86d2d6 7150 cw16005pp4g08_1.5.tar.gz
+ 3bd509dd951ddc5b809918f37dcbcecf 7356 cw16005pp4g08_1.5.tar.gz
