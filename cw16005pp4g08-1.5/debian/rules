@@ -1,17 +1,54 @@
 #!/usr/bin/make -f
-# -*- makefile -*-
-# Sample debian/rules that uses debhelper.
-# This file was originally written by Joey Hess and Craig Small.
-# As a special exception, when this file is copied by dh-make into a
-# dh-make output file, you may use that output file without restriction.
-# This special exception was added by Craig Small in version 0.37 of dh-make.
 
-# Uncomment this to turn on verbose mode.
-#export DH_VERBOSE=1
+DESTEXE=$(CURDIR)/debian/cw16005pp4g08/usr/bin
+DESTSHR=$(CURDIR)/debian/cw16005pp4g08/usr/share/cw16005pp4g08
+DESTETC=$(CURDIR)/debian/cw16005pp4g08/etc/cw16005pp4g08
 
-%:
-	dh  $@
+SRCDIR=$(CURDIR)/source
+
+build: build-stamp
+
+build-stamp: 
+	dh_testdir
+	touch build-stamp
+
+clean: 
+	dh_testdir
+	dh_testroot
+	rm -f build-stamp
+	dh_clean
+
+install: build clean $(SRCDIR)
+	dh_testdir
+	dh_testroot
+	dh_prep
+	dh_installdirs
+	mkdir -m 775 -p $(DESTEXE)
+	mkdir -m 775 -p $(DESTSHR)
+	mkdir -m 775 -p $(DESTETC)
+
+	install -m 644 $(SRCDIR)/feeds.conf $(DESTETC)
+	install -m 644 $(SRCDIR)/index.php $(DESTSHR)
+	install -m 644 $(SRCDIR)/rss_php.php $(DESTSHR)
+	install -m 755 $(SRCDIR)/cw16005pp4g08 $(DESTEXE)
 
 
+binary-indep: build install
+	dh_testdir
+	dh_testroot
+	dh_installchangelogs
+	dh_installdocs
+	dh_installexamples
+	dh_installdebconf
+	dh_installman
+	dh_link
+	dh_strip
+	dh_compress
+	dh_fixperms
+	dh_installdeb
+	dh_gencontrol
+	dh_md5sums
+	dh_builddeb
 
-
+binary: binary-indep
+.PHONY: build clean binary-indep binary install

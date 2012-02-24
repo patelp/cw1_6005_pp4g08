@@ -1,4 +1,7 @@
 f8d13532acfab348cd949282a76bfea7  usr/share/doc/cw16005pp4g08/changelog.gz
 98cb1a4a93d3ef2421061de5159abc18  usr/share/doc/cw16005pp4g08/examples/cw16005pp4g08.example
 c537cb12c16d7aa05198e7a5a9bd10be  usr/share/doc/cw16005pp4g08/copyright
-a334609b79fd34bc9e62069f0edae73e  usr/share/man/man1/cw16005pp4g08.1.gz
+90e9335515f01f75a72f5454d05187d0  usr/share/cw16005pp4g08/index.php
+e51c37fb5f726c5fd7ece75c93af4fce  usr/share/cw16005pp4g08/rss_php.php
+aa1c55996918d6b1a2c43ef705b7eaec  usr/share/man/man1/cw16005pp4g08.1.gz
+b4e87fbc260e9280fbf3f6a97bfd192c  usr/bin/cw16005pp4g08

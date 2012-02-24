@@ -1,0 +1,3 @@
+#!/bin/bash
+
+php /usr/share/cw16005pp4g08/index.php $@
