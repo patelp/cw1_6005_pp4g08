@@ -27,9 +27,9 @@ $user_config_file = $_SERVER['HOME'].'/.cw16005pp4g08';
 $config_file = '/etc/cw16005pp4g08/feeds.conf';
 
 ----------------
-Installation
+Installation: (may require root)
 
-$ sudo dpkg -i cw16005pp4g08_1.5_i386.deb
+$ dpkg -i cw16005pp4g08_1.5_i386.deb
 
 ----------------
 Usage
