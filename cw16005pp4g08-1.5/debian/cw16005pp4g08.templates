@@ -1,11 +1,11 @@
 Template: cw16005pp4g08/feeds
 Type: string
-_Default: English[ http://feeds.bbci.co.uk/news/rss.xml]
+Default:  http://feeds.bbci.co.uk/news/rss.xml
 _description: URL of Feeds(use space to seperate multiple feeds):
  This debian package needs a default RSS feed URL for general use.
 
 Template: cw16005pp4g08/items
 Type: string
-_Default: English [10]
+Default: 10
 _description: Feed Entries to Be Displayed:
  This package needs to know how many entries in a feed to display.

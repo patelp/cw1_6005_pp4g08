@@ -35,6 +35,12 @@ Installation: (may require root)
 $ dpkg -i cw16005pp4g08_1.5_i386.deb
 
 ----------------
+Reconfigure: (may require root)
+
+$ dpkg-reconfigure cw16005pp4g08
+  *follow on screen instructions
+
+----------------
 Usage
 
 $ cw16005pp4g08 
